@@ -11,8 +11,8 @@ This project focuses on defining patterns for systems with an emphasis on securi
 
 The entire project is structured as follows:
 
-* **Core Pattern:** The core pattern, called TVA, is the heart and foundation of the system. It is kept simple and serves the purpose of defining the system’s architecture—that is, the basic structure, including the distribution of roles.
-* **Extension Patterns:** As the name suggests, these patterns are extensions—additions to the existing core pattern.
+* **Core Pattern:** The core pattern, called TVA, is the heart and foundation of the system. It is kept simple and serves the purpose of defining the system’s architecture - that is, the basic structure, including the distribution of roles.
+* **Extension Patterns:** As the name suggests, these patterns are extensions - additions to the existing core pattern.
 
 The entire system has a modular structure, meaning the core pattern (the foundation) should be freely extensible, for example with VTEC, HVR, TTS, etc.
 
