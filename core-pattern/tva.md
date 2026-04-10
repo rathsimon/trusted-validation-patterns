@@ -40,8 +40,8 @@ The use of the HVR pattern is not included on this page or in the diagram and th
 The different levels each have defined roles and tasks:
 
 {% tabs %}
-{% tab title="L1: Initiator & Preperation Layer" %}
-The layer 1, also known as the initator layer, has the fundamental task of receiving (or initializing) the request, performing basic validations and passing them on.
+{% tab title="L1: Initiator Layer" %}
+The layer 1, also known as the Initator Layer, has the fundamental task of receiving (or initializing) the request, performing basic validations and passing them on.
 
 Defined tasks:
 
@@ -57,7 +57,7 @@ Important: First validations really only mean the basic validations that are nec
 {% endtab %}
 
 {% tab title="L2: Validation Layer" %}
-The layer 2, also known as the validation layer, has the fundamental task of validating the request, both technically and logically, and to forward the request to L3.
+The layer 2, also known as the Validation Layer, has the fundamental task of validating the request, both technically and logically, and to forward the request to L3.
 
 Defined tasks:
 
@@ -67,7 +67,7 @@ Defined tasks:
 {% endtab %}
 
 {% tab title="L3: Execution Layer" %}
-Layer 3, also known as the execution layer, has the fundamental task of executing the request.
+Layer 3, also known as the Execution Layer, has the fundamental task of executing the request.
 
 Defined tasks:
 
