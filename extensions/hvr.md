@@ -29,15 +29,15 @@ L3 then adds this hash, along with a timestamp and an expiration date/time (e.g.
 
 Once L2 has received the actual request from L1, it can validate it and forward it to L3 if it has been successfully validated. L3 then hashes the request and checks whether it is in the HVR table and whether the expiration time has not yet been reached. Once the hash is found, it is of course immediately removed from the table, even before execution begins, to prevent recall attacks.
 
-It is important to note that L1 can only communicate with L3 using the HVR add endpoint.
-
-And, most importantly, L2 cannot communicate with L3’s HVR endpoint - without exception.&#x20;
+It is important to note that L1 can only communicate with L3 using the HVR add endpoint.And, most importantly, L2 cannot communicate with L3’s HVR endpoint - without exception.&#x20;
 
 The basic flow remains sequential, but with the add-on, L1 sends the HVR to L3 during initialization before the step of communicating with L2. (L1 -> L3; L1 -> L2 -> L3)
 
 Below is a diagram illustrating the structure and flow of a request using the HVR pattern based on TVA:
 
 <figure><img src="../.gitbook/assets/HVR_Pattern_Orbix_Labs.drawio.svg" alt=""><figcaption></figcaption></figure>
+
+This means that neither L1 nor L2 alone can send malicious requests to L3. Only L1 is able to register HVR hashes with L3, and requests are only considered for execution when they arrive from L2 and match a hash in the HVR table. Therefore, L1 and L2 are both required to trigger any execution in L3.
 
 {% hint style="info" %}
 The use of HVR improves the architecture, effectively “neutralizing” the standard BFT (Byzantine Fault Tolerance) formula. A page for BFT Reference is coming soon.
