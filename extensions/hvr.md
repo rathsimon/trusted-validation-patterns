@@ -35,7 +35,7 @@ The basic flow remains sequential, but with the add-on, L1 sends the HVR to L3 d
 
 Below is a diagram illustrating the structure and flow of a request using the HVR pattern based on TVA:
 
-<figure><img src="../.gitbook/assets/HVR_Pattern_Orbix_Labs.drawio.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/HVR_Diagram_Overview.svg" alt=""><figcaption></figcaption></figure>
 
 This means that neither L1 nor L2 alone can send malicious requests to L3. Only L1 is able to register HVR hashes with L3, and requests are only considered for execution when they arrive from L2 and match a hash in the HVR table. Therefore, L1 and L2 are both required to trigger any execution in L3.
 

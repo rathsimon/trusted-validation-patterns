@@ -31,7 +31,7 @@ A sequence in the TVA patter always goes through this sequentially, so L1 -> L2 
 \
 In addition, here is a diagram which represents the structure, as well as the process of a request:
 
-<figure><img src="../.gitbook/assets/Core_Pattern_Orbix_Labs_light.drawio.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/TVA_Diagram_Overview.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The use of the HVR pattern is not included on this page or in the diagram and the roles and task description below. Please note the corresponding page under "Extensions > HVR".

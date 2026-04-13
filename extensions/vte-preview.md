@@ -38,6 +38,6 @@ This is just a simple example for illustrative purposes; actual applications can
 
 The picture below shows the architectural structure of the VTE pattern:
 
-<figure><img src="../.gitbook/assets/VTE_Pattern_Orbix_Labs.drawio.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/VTE_Diagram_Overview.svg" alt=""><figcaption></figcaption></figure>
 
 In summary, the purpose of this pattern is to link the disclosure of secrets to logical validations—rather than simply verifying the correct identity - and to enhance security through the dynamic and context-dependent disclosure of secrets with appropriate attributes.
