@@ -36,7 +36,3 @@ Below is a diagram illustrating the structure and flow of a request using the HV
 <figure><img src="../.gitbook/assets/HVR_Diagram_Overview.svg" alt=""><figcaption></figcaption></figure>
 
 This means that neither L1 nor L2 alone can send malicious requests to L3. Only L1 is able to register HVR hashes with L3, and requests are only considered for execution when they arrive from L2 and match a hash in the HVR table. Therefore, L1 and L2 are both required to trigger any execution in L3.
-
-{% hint style="info" %}
-The use of HVR improves the architecture, effectively “neutralizing” the standard BFT (Byzantine Fault Tolerance) formula. A page for BFT Reference is coming soon.
-{% endhint %}
