@@ -44,7 +44,7 @@ Of course, the comparison isn't quite that simple: a system that has sent 100 co
 
 And then of course you can say: This source now has an advantage - after the X correct requests, it may send X requests, which do not have to be validated, but are sent directly to L3.
 
-This pattern can depict different logics from fixed rules (X validated -> then X without validation possible; X validated -> X without validation with samples) to dynamic rules )confidence scores, etc.).
+This pattern can depict different logics from fixed rules (X validated -> then X without validation possible; X validated -> X without validation with samples) to dynamic rules (confidence scores, etc.).
 
 In the end, however, it always comes down to one thing - a "trusted" system always has the possibility to send unvalidated requests to the Processing Layer (L3) to optimize the performance.
 

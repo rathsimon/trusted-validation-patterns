@@ -27,7 +27,7 @@ The TVA Pattern is deliberately simple and practical and does not reinvent the w
 
 The TVA pattern basically consists of 3 levels, whereby these levels can of course contain several nodes each, this topic will be discussed in more detail in a separate section - which will appear in the next versions. In addition, it is important to me to mention that certain deviations may be quite useful, but the rough standard should be maintained when using the pattern.\
 \
-A sequence in the TVA patter always goes through this sequentially, so L1 -> L2 -> L3.\
+A sequence in the TVA pattern always goes through this sequentially, so L1 -> L2 -> L3.\
 \
 In addition, here is a diagram which represents the structure, as well as the process of a request:
 
@@ -41,7 +41,7 @@ The different levels each have defined roles and tasks:
 
 {% tabs %}
 {% tab title="L1: Initiator Layer" %}
-The layer 1, also known as the Initator Layer, has the fundamental task of receiving (or initializing) the request, performing basic validations and passing them on.
+The Layer 1, also known as the Initiator Layer, has the fundamental task of receiving (or initializing) the request, performing basic validations and passing them on.
 
 Defined tasks:
 
@@ -57,7 +57,7 @@ Important: First validations really only mean the basic validations that are nec
 {% endtab %}
 
 {% tab title="L2: Validation Layer" %}
-The layer 2, also known as the Validation Layer, has the fundamental task of validating the request, both technically and logically, and to forward the request to L3.
+The Layer 2, also known as the Validation Layer, has the fundamental task of validating the request, both technically and logically, and to forward the request to L3.
 
 Defined tasks:
 
