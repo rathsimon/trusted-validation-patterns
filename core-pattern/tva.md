@@ -1,8 +1,6 @@
 ---
 description: Defining the fundament with the trusted validation architecture pattern.
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/JfacbfboEQYUyRJCqjia/core-pattern/tva-v2
+metaLinks: {}
 ---
 
 # TVA

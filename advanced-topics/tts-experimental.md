@@ -2,10 +2,7 @@
 description: >-
   When speed is a must - trade performance for security (only experimental -
   please be aware).
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/JfacbfboEQYUyRJCqjia/advanced-topics/ttg-v2-experimental
+metaLinks: {}
 ---
 
 # TTS (experimental)

@@ -1,8 +1,6 @@
 ---
 description: Validating secret and token retrieval with VTE.
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/JfacbfboEQYUyRJCqjia/extensions/vte-v2
+metaLinks: {}
 ---
 
 # VTE (preview)

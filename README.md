@@ -3,9 +3,7 @@ description: >-
   Trusted Validation Patterns – A pattern collection for secure, structured
   system design.
 icon: hand-wave
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/JfacbfboEQYUyRJCqjia/
+metaLinks: {}
 ---
 
 # Trusted Validation Patterns

@@ -1,8 +1,6 @@
 ---
 description: Overview about this project and the structure of the patterns.
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/JfacbfboEQYUyRJCqjia/introduction/overview-v2
+metaLinks: {}
 ---
 
 # Overview

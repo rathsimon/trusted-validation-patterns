@@ -1,8 +1,6 @@
 ---
 description: Harden TVA against Layer 2 compromise with HVR.
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/JfacbfboEQYUyRJCqjia/extensions/hvr-v2
+metaLinks: {}
 ---
 
 # HVR
